@@ -1,0 +1,21 @@
+<Project  Sdk="Mono.WebAssembly.Sdk/0.2.2">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <_WasmItem Remove="index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mono.WebAssembly.Build" Version="0.2.2" />
+    <PackageReference Include="Mono.WebAssembly.Framework" Version="0.2.2" />
+    <PackageReference Include="Mono.WebAssembly.Runtime" Version="0.2.2" />
+    <PackageReference Include="Mono.WebAssembly.Sdk" Version="0.2.2" />
+    <PackageReference Include="WebAssembly.Bindings" Version="0.2.2" />
+    <PackageReference Include="WebAssembly.Net.Http" Version="0.2.2" />
+    <PackageReference Include="WebAssembly.Net.WebSockets" Version="0.2.2" />
+  </ItemGroup>
+
+</Project>
